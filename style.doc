@@ -1,0 +1,53 @@
+.list_games{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    a{
+        width: 24%;
+    }
+    .game{
+        width: 100%;
+        height: auto;
+        background-color: rgb(225, 227, 228);
+        border-radius: 20px;
+        img{
+            width: 100%;
+            border-radius: 20px;
+            height: 190px;
+        }
+        .price{
+            width: 20%;
+            height: 20%;
+            float: left;
+            transform: translate(-10px,-183px);
+            background-color: rgb(32, 125, 255);
+            border-radius: 10px;
+            padding: 5px 10px;
+            color: aliceblue;
+            display: block;
+        }
+        .status_game{
+            display: flex;
+          //  padding: 15px 20px 20px 15px;
+            font-weight: bold;
+             
+            }
+            .st_left {
+                padding-right: 0px;
+
+            }
+            .st_right{
+                background-color: rgb(255, 83, 83);
+                border-radius: 50%;
+                
+
+
+                .fa-bag-shopping{
+                    color: aliceblue;
+                    width: 44px;
+                    height: 40px;
+                    text-align: center;
+                }
+            }
+        }
+    }
